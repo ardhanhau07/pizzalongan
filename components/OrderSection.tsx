@@ -58,7 +58,7 @@ export default function OrderSection() {
           >
             <span className="text-3xl">🛒</span>
             <span>Pesan via WhatsApp</span>
-            <span className="text-sm font-semibold px-3 py-1 rounded-full" style={{ backgroundColor: "rgba(255,255,255,0.2)" }}>0816 413 468</span>
+            <span className="text-sm font-semibold px-5 py-3 rounded-full" style={{ backgroundColor: "rgba(255,255,255,0.2)" }}>0816413468</span>
           </a>
         </motion.div>
 

@@ -85,7 +85,7 @@ export default function MenuSection() {
               <h4 className="font-bold text-sm uppercase tracking-widest mb-2" style={{ color: "#D4A017", fontFamily: "Syne,sans-serif" }}>Komposisi Bahan</h4>
               <p className="text-sm leading-relaxed" style={{ color: "rgba(245,230,204,0.75)" }}>
                 Tepung terigu, telur, minyak nabati, gula, garam, pengemulsi roti, air, saos bolognese, mozarella, oregano,
-                aneka topping (sosis, jagung pipil, daging sapi cincang, bakso sapi, pepperoni dan keju melted slice, mayonaise, saos pedas, saos kejui).
+                aneka topping (sosis, jagung pipil, daging sapi cincang, bakso sapi, pepperoni dan keju melted slice, mayonaise, saos pedas, saos keju).
               </p>
             </div>
           </div>

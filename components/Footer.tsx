@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-full flex items-center justify-center" style={{ backgroundColor: "#C8272D" }}>
-              <span className="text-white font-bold text-xs" style={{ fontFamily: "Syne,sans-serif" }}>PZL</span>
+             <img src="logo.png" alt="Logo Pizzalongan" width={45} height={45} className="object-contain"/>
             </div>
             <div>
               <span className="font-black text-white text-lg leading-none block" style={{ fontFamily: "'Playfair Display',serif" }}>PIZZALONGAN</span>
@@ -28,9 +28,9 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 rounded-full px-4 py-2" style={{ border: "1px solid rgba(26,92,44,0.4)" }}>
-            <span className="text-lg">✅</span>
-            <span className="font-bold text-xs uppercase tracking-wider" style={{ color: "#1A5C2C", fontFamily: "Syne,sans-serif" }}>Halal Certified</span>
+          <div className="flex items-center gap-2 rounded-full px-4 py-2" style={{ border: "1px solid rgb(255, 255, 255)" }}>
+            <img src="Halal_Indonesia.svg.png" alt="Logo Pizzalongan" width={25} height={25} className="object-contain" color="#ffffff"/>
+            <span className="font-bold text-xs uppercase tracking-wider" style={{ color: "#ffffff", fontFamily: "Syne,sans-serif" }}>Halal Certified</span>
           </div>
         </div>
       </div>

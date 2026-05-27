@@ -97,8 +97,8 @@ export default function Hero() {
       {/* giant ghost text */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
         <span className="font-bold leading-none tracking-tight"
-              style={{ fontSize: "18vw", color: "rgba(255,255,255,0.025)", fontFamily: "'Playfair Display',serif" }}>
-          PIZZA
+              style={{ fontSize: "10vw", color: "rgba(255,255,255,0.025)", fontFamily: "'Playfair Display',serif" }}>
+          PIZZALONGAN
         </span>
       </div>
 
@@ -177,7 +177,8 @@ export default function Hero() {
               animate={{ y: [0, -16, 0], rotate: [-1, 1, -1] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             >
-              <PizzaPlate />
+              {/* <PizzaPlate /> */}
+              <img src="pizza.png" alt="" />
             </motion.div>
 
             {/* halal badge */}
@@ -186,7 +187,7 @@ export default function Hero() {
               transition={{ delay: 1.1, duration: 0.6 }}
               className="absolute top-0 right-0 md:-right-2"
             >
-              <HalalBadge />
+              {/* <HalalBadge /> */}
             </motion.div>
 
             {/* fresh badge */}

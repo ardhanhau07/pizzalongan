@@ -27,12 +27,19 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform" style={{ backgroundColor: "#C8272D" }}>
-            <span className="text-white font-bold text-xs" style={{ fontFamily: "Syne,sans-serif" }}>PZL</span>
+          {/* Wadah lingkaran merah logo */}
+          <div className="w-10 h-10 bg-[#C8272D] rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform overflow-hidden relative">
+            {/* 2. GANTI TEKS PZL DENGAN INI */}
+            <img src="logo.png" alt="Logo Pizzalongan" width={45} height={45} className="object-contain"/>
           </div>
+          
           <div>
-            <span className="font-black text-xl leading-none block" style={{ fontFamily: "'Playfair Display',serif", color: "#C8272D" }}>PIZZALONGAN</span>
-            <span className="text-[10px] font-semibold tracking-widest uppercase" style={{ color: "#1A5C2C", fontFamily: "Syne,sans-serif" }}>Pizza Panjang Pekalongan</span>
+            <span className="font-display text-[#C8272D] font-black text-xl leading-none block">
+              PIZZALONGAN
+            </span>
+            <span className="font-syne text-[#1A5C2C] text-[10px] font-semibold tracking-widest uppercase">
+              Pizza Panjang Pekalongan
+            </span>
           </div>
         </a>
 
